@@ -28,7 +28,7 @@ Method     | URI
 -----------|-----------------------------
 POST       | http://127.0.0.1:3333/sell-orders
 GET        | http://127.0.0.1:3333/sell-orders
-GET        | http://127.0.0.1:3333/ssell-orders/:id
+GET        | http://127.0.0.1:3333/sell-orders/:id
 GET        | http://127.0.0.1:3333/shipping-methods
 GET        | http://127.0.0.1:3333/shipping-methods/:id
 GET        | http://127.0.0.1:3333/shipping-methods/:id/details

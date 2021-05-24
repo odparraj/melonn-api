@@ -1,0 +1,15 @@
+{
+  "typescript": true,
+  "commands": ["./commands", "@adonisjs/core/build/commands", "@adonisjs/repl/build/commands"],
+  "exceptionHandlerNamespace": "App/Exceptions/Handler",
+  "aliases": {
+    "App": "app",
+    "Config": "config",
+    "Database": "database",
+    "Contracts": "contracts",
+    "Modules": "modules"
+  },
+  "preloads": ["./start/routes", "./start/kernel", "./start/melonn"],
+  "providers": ["./providers/AppProvider", "@adonisjs/core"],
+  "aceProviders": ["@adonisjs/repl"]
+}

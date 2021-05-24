@@ -20,9 +20,6 @@
 
 import Route from '@ioc:Adonis/Core/Route'
 
-Route.get('/', async () => {
-  return { hello: 'world' }
-})
-
 Route.resource('shipping-methods', 'ShippingMethodController').only(['index', 'show'])
+Route.get('shipping-methods/:id/details', 'ShippingMethodController.details')
 Route.resource('sell-orders', 'SellOrderController').only(['index', 'show', 'store'])
